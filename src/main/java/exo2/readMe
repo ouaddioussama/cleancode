@@ -1,0 +1,23 @@
+Explications des bonnes pratiques et du clean code appliqué :
+Nom de la classe :
+
+Le nom de la classe EvenNumberSumCalculator est plus explicite et décrit clairement son rôle. Il suit la convention de nommage PascalCase pour les classes.
+Nom de la méthode :
+
+Le nom de la méthode sumEvenNumbers est clair et décrit bien l’action qu'elle effectue. Elle suit la convention de nommage camelCase pour les méthodes.
+Validation des entrées :
+
+La condition if (n < 1) est placée dès le début de la méthode pour retourner rapidement une valeur par défaut (0) si l'entrée est invalide. Cela évite de traiter inutilement un cas où n serait inférieur à 1.
+Boucle efficace :
+
+La boucle commence à 2 (le premier nombre pair) et incrémente de 2 à chaque itération (i += 2), ce qui évite de vérifier si chaque nombre est pair avec un test (i % 2 == 0). Cela rend la boucle plus claire et plus performante.
+Clarté du code :
+
+Le code est simple à comprendre et bien structuré. Les noms des variables sont clairs et n'ont pas besoin de commentaires supplémentaires.
+Gestion des cas limites :
+
+Le cas où n est inférieur à 1 est bien géré au début de la méthode, ce qui simplifie la logique de la boucle principale.
+Avantages du code "Clean" :
+Lisibilité : Le code est facile à comprendre pour un autre développeur qui pourrait devoir le maintenir ou l'améliorer.
+Efficacité : La boucle est optimisée en n'itérant que sur les nombres pairs, ce qui améliore la performance.
+Simplicité : Le code est direct et ne contient aucune complexité ou vérification inutile
